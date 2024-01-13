@@ -87,7 +87,7 @@ ul{
 .top-header{
     position: fixed;
     /* background: var(--bg); */
-    width: 100vw;
+    width: 100%;
     padding: 1rem 2rem;
     top: 0;
     left: 0;
@@ -724,6 +724,15 @@ ul{
 
 
 /* RESPONSIVENESS */
+@media (max-width: 430px) {
+
+    body{
+        width: 480px;
+    }
+}
+
+
+
 @media (max-width: 630px) {
     .intro-header{
         width: 400px;
